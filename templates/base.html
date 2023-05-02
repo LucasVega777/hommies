@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    {% block head %}{% endblock %}
+</head>
+<body>
+    
+    <main>
+        <h1 ><a href="/">Hommies </a>  </h1>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>Mis redes:</p>
+        <ul>
+            <li>Email: <a href="mailto:lucasmvegap@gmail.com" target="_blank"> lucasmvegap@gmail.com</a></li>
+            <li>Twitter: <a href="https://twitter.com/lucasvegap">@lucasvegap</a></li>
+            <li>Instagram: <a href="https://www.instagram.com/lucas_vegap/">@lucas_vegap</a></li>
+            <li>Repl.it: <a href="https://replit.com/@LucasVega777">@LucasVega777</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/lucasmvegap/">Lucas Vega</a></li>
+            <li>Github: <a href="https://github.com/LucasVega777">@LucasVega777</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

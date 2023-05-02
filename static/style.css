@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #f6f6f6;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-top: 0;
+  }
+  
+  input[type="text"] {
+    padding: 0.5em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 2em auto;
+  }
+  
+  button[type="submit"]:disabled {
+    padding: 0.5em 2em;
+    font-size: 1.5em;
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  button[type="submit"]:enabled {
+    padding: 0.5em 2em;
+    font-size: 1.5em;
+    background-color: #9469FE;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+
+  
+  
+  a {
+    color: #9469FE;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+  footer {
+    background-color: #9469FE;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  footer a:hover {
+    color: #ccc;
+  }
+
+  

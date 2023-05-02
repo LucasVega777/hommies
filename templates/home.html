@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}
+Hommies
+{% endblock %}
+
+{% block content %}
+  <h2> Busca una imagen</h2>
+  <form action="/" method="post">
+    <input type="text" name="query" id="input-buscar" class="form-control">
+    <button type="submit" id="btn-buscar" disabled>Buscar</button>
+  </form>
+  <script>
+    const searchInput = document.getElementById('input-buscar');
+    const searchButton = document.getElementById('btn-buscar');
+    
+    searchInput.addEventListener('input', () => {
+      if (searchInput.value.trim() !== '') {
+        searchButton.removeAttribute('disabled');
+      } else {
+        searchButton.setAttribute('disabled', '');
+      }
+    });
+    </script>
+{% endblock %}
