@@ -3,5 +3,4 @@ uvicorn==0.15.0
 aiofiles
 jinja2==3.0
 python-multipart
-uvicorn
 ascii_magic
